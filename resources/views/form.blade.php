@@ -104,15 +104,15 @@
         <h1>Bienvenido</h1>
         <p>Déjanos tu mensaje y te responderemos pronto</p>
 
-        <form>
+        <form action = "/store" method="GET">
             <div class="form-group">
                 <label for="email">Correo Electrónico</label>
-                <input type="email" id="email" placeholder="ejemplo@correo.com" required>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
             </div>
 
             <div class="form-group">
                 <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                <textarea id="mensaje"name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
             </div>
 
             <button type="submit">Enviar Mensaje</button>
