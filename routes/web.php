@@ -10,7 +10,24 @@ Route::get('/Mi-Nombre', function () {
     return "Miguel Angel Solano Diaz";
 });
 
-Route::get('/php-basico........', function () {
+Route::get('/contactanos', function () {
+    return view("form") ;
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('/php-basico', function () {
 
     $name = "Miguel Solano";
     $height = 1.72;
